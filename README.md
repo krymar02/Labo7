@@ -35,6 +35,7 @@ pip install psutil matplotlib
 
 ```bash
 python process_info.py 5072
+
 #### Resultado:
 Nombre del proceso: code
 ID del proceso: 5072
@@ -65,4 +66,22 @@ python resource_monitor.py "C:\Program Files\BraveSoftware\Brave-Browser\Applica
 Graficando resultados...
 (Se muestra una gráfica con el tiempo y el uso de CPU y memoria)
 
+Branches
+main: Contiene el código principal.
+ejercicio1: Branch para el desarrollo del Ejercicio 1.
+ejercicio2: Branch para el desarrollo del Ejercicio 2.
+ejercicio3: Branch para el desarrollo del Ejercicio 3.
+Comandos Utilizados
+A continuación, se listan algunos de los comandos utilizados durante el desarrollo:
 
+```bash
+# Crear branches
+git checkout -b ejercicio1
+git checkout -b ejercicio2
+git checkout -b ejercicio3
+
+# Cambiar a la rama principal
+git checkout main
+
+# Visualizar branches
+git branch
