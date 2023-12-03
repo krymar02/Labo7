@@ -25,8 +25,9 @@ Librerías antes de ejecutar los scripts. Puedes instalarlas utilizando el sigui
 ```bash
 pip install psutil matplotlib
 
-psutil: Librería para acceder a información sobre los procesos y el sistema.
-matplotlib: Librería para la creación de gráficos y visualización de datos.
+##Librerias
+- `psutil`: Librería para acceder a información sobre los procesos y el sistema.
+- `matplotlib`: Librería para la creación de gráficos y visualización de datos.
 
 ## Ejecución y resultados
 
@@ -34,6 +35,7 @@ matplotlib: Librería para la creación de gráficos y visualización de datos.
 
 ```bash
 python process_info.py 5072
+#### Resultado:
 Nombre del proceso: code
 ID del proceso: 5072
 Parent process ID: 83148
@@ -48,7 +50,7 @@ Path del ejecutable: C:\Windows\visual studio code\process_info.py
 ```bash
 python process_monitor.py firefox "Brave"
 
-Resultado:
+####Resultado:
 Process 'Brave' restarted.
 Process 'Brave' restarted.
 Process 'Brave' restarted.
@@ -59,7 +61,7 @@ Monitoring stopped.
 ```bash
 python resource_monitor.py "C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe"
 
-Resultados:
+####Resultados:
 Graficando resultados...
 (Se muestra una gráfica con el tiempo y el uso de CPU y memoria)
 
