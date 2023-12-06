@@ -70,9 +70,13 @@ Graficando resultados...
 (Se muestra una gráfica con el tiempo y el uso de CPU y memoria)
 ```
 ## Branches
+
 -main: Contiene el código principal.
+
 -ejercicio1: Branch para el desarrollo del Ejercicio 1.
+
 -ejercicio2: Branch para el desarrollo del Ejercicio 2.
+
 -ejercicio3: Branch para el desarrollo del Ejercicio 3.
 
 # Comandos Utilizados
