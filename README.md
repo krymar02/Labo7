@@ -24,6 +24,7 @@ Librerías antes de ejecutar los scripts. Puedes instalarlas utilizando el sigui
 
 ```bash
 pip install psutil matplotlib
+```
 
 ##Librerias
 - `psutil`: Librería para acceder a información sobre los procesos y el sistema.
@@ -35,6 +36,7 @@ pip install psutil matplotlib
 
 ```bash
 python process_info.py 5072
+```
 
 #### Resultado:
 Nombre del proceso: code
@@ -50,6 +52,7 @@ Path del ejecutable: C:\Windows\visual studio code\process_info.py
 
 ```bash
 python process_monitor.py firefox "Brave"
+```
 
 ####Resultado:
 Process 'Brave' restarted.
@@ -58,9 +61,11 @@ Process 'Brave' restarted.
 ...
 Monitoring stopped.
 
+
 ### Ejercicio 3: Monitorear consumo de CPU y Memoria
 ```bash
 python resource_monitor.py "C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe"
+```
 
 ####Resultados:
 Graficando resultados...
@@ -71,7 +76,9 @@ main: Contiene el código principal.
 ejercicio1: Branch para el desarrollo del Ejercicio 1.
 ejercicio2: Branch para el desarrollo del Ejercicio 2.
 ejercicio3: Branch para el desarrollo del Ejercicio 3.
+
 Comandos Utilizados
+
 A continuación, se listan algunos de los comandos utilizados durante el desarrollo:
 
 ```bash
@@ -85,3 +92,4 @@ git checkout main
 
 # Visualizar branches
 git branch
+```
