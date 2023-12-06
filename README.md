@@ -18,9 +18,9 @@ El presente laboratorio tiene como objetivo evaluar los conocimientos adquiridos
 - `resource_monitor.py`: Script que monitorea el consumo de CPU y memoria de un proceso y grafica los resultados.
 
 ## Instrucciones de Instalación de Librerías
-Para una correcta ejecucion se deben tener instaladas las librerias. 
+-Para una correcta ejecucion se deben tener instaladas las librerias. 
 
-Librerías antes de ejecutar los scripts. Puedes instalarlas utilizando el siguiente comando:
+-Librerías antes de ejecutar los scripts. Puedes instalarlas utilizando el siguiente comando:
 
 ```bash
 pip install psutil matplotlib
@@ -70,10 +70,10 @@ Graficando resultados...
 (Se muestra una gráfica con el tiempo y el uso de CPU y memoria)
 ```
 ## Branches
-main: Contiene el código principal.
-ejercicio1: Branch para el desarrollo del Ejercicio 1.
-ejercicio2: Branch para el desarrollo del Ejercicio 2.
-ejercicio3: Branch para el desarrollo del Ejercicio 3.
+-main: Contiene el código principal.
+-ejercicio1: Branch para el desarrollo del Ejercicio 1.
+-ejercicio2: Branch para el desarrollo del Ejercicio 2.
+-ejercicio3: Branch para el desarrollo del Ejercicio 3.
 
 # Comandos Utilizados
 
