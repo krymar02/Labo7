@@ -52,25 +52,23 @@ Path del ejecutable: C:\Windows\visual studio code\process_info.py
 
 ```bash
 python process_monitor.py firefox "Brave"
-```
 
-####Resultado:
+#Resultado:
 Process 'Brave' restarted.
 Process 'Brave' restarted.
 Process 'Brave' restarted.
 ...
 Monitoring stopped.
-
+```
 
 ### Ejercicio 3: Monitorear consumo de CPU y Memoria
 ```bash
 python resource_monitor.py "C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe"
-```
 
-####Resultados:
+#Resultados:
 Graficando resultados...
 (Se muestra una gráfica con el tiempo y el uso de CPU y memoria)
-
+```
 Branches
 main: Contiene el código principal.
 ejercicio1: Branch para el desarrollo del Ejercicio 1.
@@ -86,7 +84,6 @@ A continuación, se listan algunos de los comandos utilizados durante el desarro
 git checkout -b ejercicio1
 git checkout -b ejercicio2
 git checkout -b ejercicio3
-
 # Cambiar a la rama principal
 git checkout main
 
