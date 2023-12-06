@@ -36,7 +36,6 @@ pip install psutil matplotlib
 
 ```bash
 python process_info.py 5072
-```
 
 #### Resultado:
 Nombre del proceso: code
@@ -47,6 +46,7 @@ Porcentaje de uso de CPU: 14,42%
 Consumo de memoria: 219 MB
 Estado: Running
 Path del ejecutable: C:\Windows\visual studio code\process_info.py
+```
 
 ### Ejercicio 2: Monitorear un proceso
 
@@ -69,13 +69,13 @@ python resource_monitor.py "C:\Program Files\BraveSoftware\Brave-Browser\Applica
 Graficando resultados...
 (Se muestra una gráfica con el tiempo y el uso de CPU y memoria)
 ```
-Branches
+## Branches
 main: Contiene el código principal.
 ejercicio1: Branch para el desarrollo del Ejercicio 1.
 ejercicio2: Branch para el desarrollo del Ejercicio 2.
 ejercicio3: Branch para el desarrollo del Ejercicio 3.
 
-Comandos Utilizados
+# Comandos Utilizados
 
 A continuación, se listan algunos de los comandos utilizados durante el desarrollo:
 
